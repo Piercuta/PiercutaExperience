@@ -1,3 +1,4 @@
+# - *- coding: utf-8 - *-
 """Ce fichier définit des fonctions utiles pour le programme pendu.
 
 On utilise les données du programme contenues dans donnees.py"""

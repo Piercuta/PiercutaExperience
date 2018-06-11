@@ -1,9 +1,9 @@
+# - *- coding: utf-8 - *-
 """Ce fichier contient le jeu du pendu.
 
 Il s'appuie sur les fichiers :
 - donnees.py
 - fonctions.py"""
-
 
 from donnees import *
 from fonctions import *

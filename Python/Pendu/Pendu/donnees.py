@@ -1,3 +1,4 @@
+# - *- coding: utf-8 - *-
 """Ce fichier définit quelques données, sous la forme de variables,
 utiles au programme pendu"""
 
