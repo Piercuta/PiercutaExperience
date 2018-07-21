@@ -12,7 +12,7 @@
     <Name>WordsReminder</Name>
     <RootNamespace>WordsReminder</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>AddDefinition</CommandLineArguments>
+    <CommandLineArguments>-gd cacamou</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
