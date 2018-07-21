@@ -30,18 +30,24 @@ if sys.argv[1] == "AddDefinition":
 if sys.argv[1] == "ShowMonthlyDefinition":
     my_monthly_dico = recup_dico(my_monthly_dico_filename)
     if len(my_monthly_dico.dictionnary) != 0:
-        for key,value in my_monthly_dico.dictionnary.items():
-            print (key + " : " + value + "\n\n")
-            time.sleep(1)
+        for key,value in sorted(my_monthly_dico.dictionnary.items()):
+            print ('{:<14}  {:<14}\n'.format( key, value))
+            time.sleep(2)
     else:
         print("pas de définition ce mois-ci")
 
 if sys.argv[1] == "ShowAllRegisteredDefinition":
     my_full_dico = recup_dico(my_full_dico_filename)
     if len(my_full_dico.dictionnary) != 0:
-        for key,value in my_full_dico.dictionnary.items():
-            print (key + " : " + value + "\n\n")
+        for key,value in sorted(my_full_dico.dictionnary.items()):
+            print ('{:<14}  {:<14}\n'.format( key, value))
             time.sleep(1)
     else:
         print("pas de définition dans le diciotnnaire")
 
+if sys.argv[1] == "PrintDictionnary":
+    dico_name = sys.argv[2]
+    my_dico = recup_dico(dico_name)  
+    with open(dico_name + '.txt', 'w') as file:
+        for key,value in sorted(my_dico.dictionnary.items()):
+            file.write ('{:<14}  {:<14}\n'.format( key, value))
