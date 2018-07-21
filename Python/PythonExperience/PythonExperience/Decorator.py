@@ -27,3 +27,19 @@ MonJardin.legumes.append("citrouille")
 MonJardin.legumes.append("tomate")
 MonJardin.afficherLegumes()
 
+import fnmatch
+import time
+
+#rootPath = '/'
+rootPath = "C:\\"
+pattern = '*.pdf'
+ 
+now = time.time()
+print (os.getcwd())
+print (rootPath)
+for root, dirs, files in os.walk(rootPath):
+    print (root , dirs, files)
+    for filename in fnmatch.filter(files, pattern):
+        print(os.path.join(root, filename))
+after = time.time()
+print (after - now)

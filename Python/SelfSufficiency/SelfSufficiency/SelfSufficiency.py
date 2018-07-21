@@ -50,22 +50,3 @@ Tomate.DisplayVegInformation()
 MonJardin.vegetables.append((5, Courgette))
 MonJardin.vegetables.append((10 ,Tomate))
 MonJardin.DisplayGardenContent()
-
-
-#import fnmatch
-#import time
-#import os
- 
-##rootPath = '/'
-#rootPath = "C:\\"
-#pattern = '*.pdf'
- 
-#now = time.time()
-#print (os.getcwd())
-#print (rootPath)
-#for root, dirs, files in os.walk(rootPath):
-#    print (root , dirs, files)
-#    for filename in fnmatch.filter(files, pattern):
-#        print(os.path.join(root, filename))
-#after = time.time()
-#print (after - now)
