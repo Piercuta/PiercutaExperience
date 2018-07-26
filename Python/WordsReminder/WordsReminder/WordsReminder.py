@@ -21,12 +21,12 @@ def main(args):
 
         add_def = True
         while add_def:
-            confirmation = 'n'
-            while confirmation == 'n':
+            confirmation = False
+            while not confirmation:
                 definition, confirmation = def_and_confirmation()
                 my_new_def = definition.split(':')
                 my_monthly_dico.dictionnary[my_new_def[0]] = my_new_def[1]
-                reply = input("voulez vous ajouter une définition ? y or n \n")
+                reply = input("voulez vous ajouter une définition ? y or n \n")#, ['y','n'])
                 if reply == "n":
                     add_def = False   
 
@@ -37,7 +37,7 @@ def main(args):
     if args.showMonthlyDefinition:
         my_monthly_dico = recup_dico(my_monthly_dico_filename)
         if len(my_monthly_dico.dictionnary) != 0:
-            for key,value in sorted(my_monthly_dico.dictionnary.items()):
+            for key,value in sorted(my_monthly_dico.dictionnary.items(), key= lambda x: x[0].lower()):
                 print ('{:<14}  {:<14}\n'.format( key, value))
                 time.sleep(2)
         else:
@@ -46,7 +46,7 @@ def main(args):
     if args.showAllDefinition:
         my_full_dico = recup_dico(my_full_dico_filename)
         if len(my_full_dico.dictionnary) != 0:
-            for key,value in sorted(my_full_dico.dictionnary.items()):
+            for key,value in sorted(my_full_dico.dictionnary.items(),  key= lambda x: x[0].lower()):
                 print ('{:<14}  {:<14}\n'.format( key, value))
                 time.sleep(1)
         else:
@@ -56,7 +56,7 @@ def main(args):
         dico_name = args.generateDictionnary[0]
         my_dico = recup_dico(dico_name)  
         with open(dico_name + '.txt', 'w') as file:
-            for key,value in sorted(my_dico.dictionnary.items()):
+            for key,value in sorted(my_dico.dictionnary.items(), key= lambda x: x[0].lower()):
                 file.write ('{:<14}  {:<14}\n'.format( key, value))
     pass
 

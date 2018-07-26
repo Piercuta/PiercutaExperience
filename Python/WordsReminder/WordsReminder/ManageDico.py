@@ -2,6 +2,7 @@
 import os
 import pickle
 import datetime
+import _string
 
 my_monthly_dico_filename = "monthly_dictionnary"
 my_full_dico_filename = "full_dictionnary"
@@ -24,12 +25,27 @@ def save_dico(dico_filename,my_new_dico):
     my_deplicker.dump(my_new_dico)
     binary_dictionnary.close()
 
-def def_and_confirmation():
-    """function to interact with the user asking a definition and a confirmation
-    it returns a tuple"""
-    definition = input("Tapez un mot puis sa définition en les séparant de deux points : \n")
-    confirmation = input("confirmez vous ce mot et sa définition ? y or n \n")
+def def_and_confirmation()->(str,bool):
+    """function to interact with the user asking a definition and a confirmation it returns a tuple"""
+    definition = inputs("Tapez un mot puis sa définition en les séparant de deux points : \n", [':'])
+    confirmation = inputs("Confirmez vous ce mot et sa définition ? y or n \n",['y','n'])
+    if confirmation == 'y':
+        confirmation = True
+    else:
+        confirmation = False
     return (definition , confirmation)
+
+def inputs(question : str, mandatory_char : list)->str:
+    res = False
+    while not res:
+        inp = input(question)
+        for str in mandatory_char:
+            if(str in inp):
+                res = True
+                break
+        if res == False:
+            print("what you feel is wrong ! \n")
+    return inp
 
 
 class Dictionnary:
