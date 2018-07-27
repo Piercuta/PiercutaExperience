@@ -27,6 +27,9 @@
     <Compile Include="ManageDico.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tests.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="WordsReminder.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
