@@ -26,7 +26,7 @@ def main(args):
                 definition, confirmation = def_and_confirmation()
                 my_new_def = definition.split(':')
                 my_monthly_dico.dictionnary[my_new_def[0]] = my_new_def[1]
-                reply = input("voulez vous ajouter une définition ? y or n \n")#, ['y','n'])
+                reply = input_checking("Voulez vous ajouter une définition ? y or n \n", r"^(y|n)$")
                 if reply == "n":
                     add_def = False   
 

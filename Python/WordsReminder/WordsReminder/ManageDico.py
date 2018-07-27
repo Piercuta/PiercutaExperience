@@ -2,7 +2,7 @@
 import os
 import pickle
 import datetime
-import _string
+import re
 
 my_monthly_dico_filename = "monthly_dictionnary"
 my_full_dico_filename = "full_dictionnary"
@@ -26,27 +26,22 @@ def save_dico(dico_filename,my_new_dico):
     binary_dictionnary.close()
 
 def def_and_confirmation()->(str,bool):
-    """function to interact with the user asking a definition and a confirmation it returns a tuple"""
-    definition = inputs("Tapez un mot puis sa définition en les séparant de deux points : \n", [':'])
-    confirmation = inputs("Confirmez vous ce mot et sa définition ? y or n \n",['y','n'])
+    """function to interact with the user asking a definition and a confirmation
+       it returns a tuple"""
+    definition = input_checking("Tapez un mot puis sa définition (format -> 'Mot : def') \n", r"[a-zA-Z]+\s:{1}\s[a-zA-Z]+")
+    confirmation = input_checking("Confirmez vous ce mot et sa définition ? y or n \n",r"^(y|n)$")
     if confirmation == 'y':
         confirmation = True
     else:
         confirmation = False
     return (definition , confirmation)
 
-def inputs(question : str, mandatory_char : list)->str:
-    res = False
-    while not res:
-        inp = input(question)
-        for str in mandatory_char:
-            if(str in inp):
-                res = True
-                break
-        if res == False:
-            print("what you feel is wrong ! \n")
-    return inp
-
+def input_checking(question : str, regular_expression)->str:
+    chaine = input(question)
+    while re.search(regular_expression, chaine) is None:
+        print("Format non respectée ! ")
+        chaine = input(question)
+    return chaine
 
 class Dictionnary:
     def __init__(self):
