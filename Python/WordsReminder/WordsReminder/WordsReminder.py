@@ -24,11 +24,11 @@ def main(args):
             confirmation = False
             while not confirmation:
                 definition, confirmation = def_and_confirmation()
-                my_new_def = definition.split(':')
-                my_monthly_dico.dictionnary[my_new_def[0]] = my_new_def[1]
-                reply = input_checking("Voulez vous ajouter une définition ? y or n \n", r"^(y|n)$")
-                if reply == "n":
-                    add_def = False   
+            my_new_def = definition.split(':')
+            my_monthly_dico.dictionnary[my_new_def[0]] = my_new_def[1]
+            reply = input_checking("Voulez vous ajouter une définition ? y or n \n", r"^(y|n)$")
+            if reply == "n":
+                add_def = False   
 
         save_dico(my_monthly_dico_filename, my_monthly_dico)
         my_full_dico.add_dictionnary(my_monthly_dico.dictionnary)

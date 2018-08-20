@@ -28,7 +28,7 @@ def save_dico(dico_filename,my_new_dico):
 def def_and_confirmation()->(str,bool):
     """function to interact with the user asking a definition and a confirmation
        it returns a tuple"""
-    definition = input_checking("Tapez un mot puis sa définition (format -> 'Mot : def') \n", r"[a-zA-Z]+\s:{1}\s[a-zA-Z]+")
+    definition = input_checking("Tapez un mot puis sa définition (format -> 'Mot : def') \n", r"[a-zA-ZÀ-ÿ]+\s:{1}\s[a-zA-ZÀ-ÿ]+")
     confirmation = input_checking("Confirmez vous ce mot et sa définition ? y or n \n",r"^(y|n)$")
     if confirmation == 'y':
         confirmation = True
