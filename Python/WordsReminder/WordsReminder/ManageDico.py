@@ -25,7 +25,7 @@ def save_dico(dico_filename,my_new_dico):
     my_deplicker.dump(my_new_dico)
     binary_dictionnary.close()
 
-def def_and_confirmation()->(str,bool):
+def def_and_confirmation():
     """function to interact with the user asking a definition and a confirmation
        it returns a tuple"""
     definition = input_checking("Tapez un mot puis sa définition (format -> 'Mot : def') \n", r"[a-zA-ZÀ-ÿ]+\s:{1}\s[a-zA-ZÀ-ÿ]+")
@@ -36,7 +36,7 @@ def def_and_confirmation()->(str,bool):
         confirmation = False
     return (definition , confirmation)
 
-def input_checking(question : str, regular_expression)->str:
+def input_checking(question , regular_expression):
     chaine = input(question)
     while re.search(regular_expression, chaine) is None:
         print("Format non respectée ! ")
