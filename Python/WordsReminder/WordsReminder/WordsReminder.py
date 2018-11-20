@@ -4,6 +4,7 @@ import datetime
 import time
 from ManageDico import *
 import argparse
+import subprocess
 
 parser = argparse.ArgumentParser(description='This my first program with argument')
 parser.add_argument('-ad','--addDefinition', action='store_true',help='add a definition')
@@ -13,6 +14,13 @@ parser.add_argument('-gd','--generateDictionnary', nargs = 1, help='generate the
 args = parser.parse_args()
 
 def main(args):
+
+    #pull git command
+    try:
+        print (subprocess.check_output(['git','pull']))
+    except:
+        print("problem while pulling repo")
+
     if args.addDefinition:      
         my_monthly_dico = recup_dico(my_monthly_dico_filename)
         if(my_monthly_dico.datetime.month != datetime.datetime.now().month):
@@ -58,6 +66,15 @@ def main(args):
         with open(dico_name + '.txt', 'w') as file:
             for key,value in sorted(my_dico.dictionnary.items(), key= lambda x: x[0].lower()):
                 file.write ('{:<14}  {:<14}\n'.format( key, value))
+   
+               #push and commit git command
+    try:
+        print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'monthly_dictionnary']))
+        print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'full_dictionnary']))
+        print(subprocess.check_output(['git', 'push']))
+    except:
+        print ("problem while committing changes")
+
     pass
 
 if __name__ == "__main__":
