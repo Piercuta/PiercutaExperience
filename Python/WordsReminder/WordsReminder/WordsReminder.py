@@ -41,6 +41,14 @@ def main(args):
         save_dico(my_monthly_dico_filename, my_monthly_dico)
         my_full_dico.add_dictionnary(my_monthly_dico.dictionnary)
         save_dico(my_full_dico_filename, my_full_dico)
+       
+        #commit and push changes
+        try:
+            print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'monthly_dictionnary']))
+            print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'full_dictionnary']))
+            print(subprocess.check_output(['git', 'push']))
+        except:
+            print ("problem while committing changes")
 
     if args.showMonthlyDefinition:
         my_monthly_dico = recup_dico(my_monthly_dico_filename)
@@ -66,15 +74,6 @@ def main(args):
         with open(dico_name + '.txt', 'w') as file:
             for key,value in sorted(my_dico.dictionnary.items(), key= lambda x: x[0].lower()):
                 file.write ('{:<14}  {:<14}\n'.format( key, value))
-   
-               #push and commit git command
-    try:
-        print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'monthly_dictionnary']))
-        print(subprocess.check_output(['git', 'commit', '-m', 'commit def', 'full_dictionnary']))
-        print(subprocess.check_output(['git', 'push']))
-    except:
-        print ("problem while committing changes")
-
     pass
 
 if __name__ == "__main__":
