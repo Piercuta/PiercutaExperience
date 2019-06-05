@@ -5,4 +5,4 @@ New line added
 
 a second line
 
-newtext on secondbranch
+changes on NewBranch
