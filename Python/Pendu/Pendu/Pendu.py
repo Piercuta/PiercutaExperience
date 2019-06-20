@@ -8,7 +8,7 @@ Il s'appuie sur les fichiers :
 from donnees import *
 from fonctions import *
 from joelle import lait
-
+from cendrillon import souvenir
 # On récupère les scores de la partie
 scores = recup_scores()
 #aws not in newfeaturesbranch
@@ -45,7 +45,7 @@ while continuer_partie != 'new_featre_branch':
     if mot_a_trouver==mot_trouve:
         print("Félicitations ! Vous avez trouvé le mot {0}.".format(mot_a_trouver))
     else:
-        print("PENDU !!! Vous avez perdu.")
+        print("PENDU !!! Vous avez perdu master")
 
     # On met à jour le score de l'utilisateur
     scores[utilisateur] += nb_chances
