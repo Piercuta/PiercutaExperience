@@ -5,7 +5,7 @@ On utilise les données du programme contenues dans donnees.py"""
 
 import os
 import pickle
-from random import choice
+from random import choice, cacaprout
 
 from donnees import *
 
@@ -38,6 +38,16 @@ def enregistrer_scores(scores):
     mon_pickler = pickle.Pickler(fichier_scores)
     mon_pickler.dump(scores)
     fichier_scores.close()
+	
+def new_enregistrer_scores(lm):
+    """Cette fonction se charge d'enregistrer les scores dans le fichier
+    nom_fichier_scores. Elle reçoit en paramètre le dictionnaire des scores
+    à enregistrer"""
+
+    fichier_scores = open(nom_fichier_scores, "wb") # On écrase les anciens scores
+    mon_pickler = pickle.Pickler(fichier_scores)
+    mon_pickler.dump(scores)
+    fichier_scores.close()	
 
 # Fonctions gérant les éléments saisis par l'utilisateur
 
