@@ -7,10 +7,11 @@ Il s'appuie sur les fichiers :
 
 from donnees import *
 from fonctions import *
+from cendrillon import souvenir
 
 # On récupère les scores de la partie
-scores = recup_scores()
-
+scores = recup_scores(aws)
+#jean jacques est mort master
 # On récupère un nom d'utilisateur
 utilisateur = recup_nom_utilisateur()
 
@@ -44,7 +45,7 @@ while continuer_partie != 'n':
     if mot_a_trouver==mot_trouve:
         print("Félicitations ! Vous avez trouvé le mot {0}.".format(mot_a_trouver))
     else:
-        print("PENDU !!! Vous avez perdu.")
+        print("PENDU !!! Vous avez perdu master")
 
     # On met à jour le score de l'utilisateur
     scores[utilisateur] += nb_chances
