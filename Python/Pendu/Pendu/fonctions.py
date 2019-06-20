@@ -6,8 +6,9 @@ On utilise les données du programme contenues dans donnees.py"""
 import os
 import pickle
 
-from random import choice, cacaprout, mynewfunction
+from random import choice, cacaprout, mynewfunction, newpackagebranch
 from papa import maman
+
 
 from donnees import *
 
@@ -31,6 +32,9 @@ def recup_scores():
     else: # Le fichier n'existe pas
         scores = {}
     return scores
+
+def anewfunctionfrombranch():
+    return False
 
 def thisismyfunction():
     return 0
