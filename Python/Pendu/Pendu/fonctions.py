@@ -7,6 +7,7 @@ import os
 import pickle
 
 from random import choice, cacaprout, mynewfunction
+from papa import maman
 
 from donnees import *
 
@@ -23,6 +24,7 @@ def recup_scores():
     if os.path.exists(nom_fichier_scores): # Le fichier existe
         # On le récupère
         fichier_scores = open(nom_fichier_scores, "rb")
+		print("hello world")
         mon_depickler = pickle.Unpickler(fichier_scores)
         scores = mon_depickler.load()
         fichier_scores.close()
@@ -32,6 +34,9 @@ def recup_scores():
 
 def thisismyfunction():
     return 0
+	
+def thisismymasterfunction(x):
+    return 	x
 
 def enregistrer_scores(scores):
     """Cette fonction se charge d'enregistrer les scores dans le fichier
@@ -44,6 +49,16 @@ def enregistrer_scores(scores):
     fichier_scores.close()
 	
 def new_enregistrer_scores(lm):
+    """Cette fonction se charge d'enregistrer les scores dans le fichier
+    nom_fichier_scores. Elle reçoit en paramètre le dictionnaire des scores
+    à enregistrer"""
+
+    fichier_scores = open(nom_fichier_scores, "wb") # On écrase les anciens scores
+    mon_pickler = pickle.Pickler(fichier_scores)
+    mon_pickler.dump(scores)
+    fichier_scores.close()		
+	
+def new_enregistrer_scoresbismaster(lm5):
     """Cette fonction se charge d'enregistrer les scores dans le fichier
     nom_fichier_scores. Elle reçoit en paramètre le dictionnaire des scores
     à enregistrer"""
