@@ -3,11 +3,11 @@
 utiles au programme pendu"""
 
 # Nombre de coups par partie
-nb_coups = 8
+nb_coups = 9
 
 # Nom du fichier stockant les scores
 nom_fichier_scores = "scores"
-
+ficher_master = "fichier master"
 # Liste des mots du pendu
 liste_mots = [
     "armoire",
