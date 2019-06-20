@@ -5,7 +5,7 @@ On utilise les données du programme contenues dans donnees.py"""
 
 import os
 import pickle
-from random import choice
+from random import choice,mynewfunction
 
 from donnees import *
 
@@ -28,6 +28,9 @@ def recup_scores():
     else: # Le fichier n'existe pas
         scores = {}
     return scores
+
+def thisismyfunction():
+    return 0
 
 def enregistrer_scores(scores):
     """Cette fonction se charge d'enregistrer les scores dans le fichier
