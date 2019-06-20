@@ -7,10 +7,11 @@ Il s'appuie sur les fichiers :
 
 from donnees import *
 from fonctions import *
+from joelle import lait
 
 # On récupère les scores de la partie
 scores = recup_scores()
-
+#aws not in newfeaturesbranch
 # On récupère un nom d'utilisateur
 utilisateur = recup_nom_utilisateur()
 
@@ -21,7 +22,7 @@ if utilisateur not in scores.keys():
 # Notre variable pour savoir quand arrêter la partie
 continuer_partie = 'o'
 
-while continuer_partie != 'n':
+while continuer_partie != 'new_featre_branch':
     print("Joueur {0}: {1} point(s)".format(utilisateur, scores[utilisateur]))
     mot_a_trouver = choisir_mot()
     lettres_trouvees = []
