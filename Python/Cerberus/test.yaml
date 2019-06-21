@@ -1,0 +1,249 @@
+# The customer name. It is used as prefix for each created resource.
+cust_name: caca
+execute_days_off: true
+execute_week_end: true
+
+#
+# Multiple applications can be described here, in deploy list :
+# Example :
+# deploy:
+#  - name: APP
+#    git_repo: REPOSITORY-APP
+#    asg_suffix_type_linked: Asg_1
+#  - name: BRIDGER
+#    git_repo: REPOSITORY-APP2
+#    asg_suffix_type_linked: Asg_1
+#  - name: API
+#    git_repo: REPOSITORY-API
+#    asg_suffix_type_linked: Asg_2
+#
+# This part is mandatory. At least one application has to be described.
+# - name : mandatory; The application name; This name will be suffixed on each cloud formation stack and tagged on each resource deployed for the application.
+# - git_repo : mandatory; The CodeCommit repository where the application code is.
+# - branch_name : optional; The CodeCommit branch where the application code is. master by default.
+# - asg_suffix_type_linked : mandatory; The app will be deployed in a ASG.
+# Multiple applications could be in the same asg ; if so, application blocks must have same value in asg_suffix_type_linked.
+#
+# For generic deployments, variables {{}} are substitute from LaunchScriptAutomationDeploymentLambda values.
+# Example :
+# - name: {{app_name_1}}
+# - git_repo: {{app_repo_1}}
+# - branch_name: {{app_branch_1}}
+deploy:
+
+  - name: APP
+    git_repo: BAM-PROD-APP
+    branch_name: MASTER
+    asg_suffix_type_linked: APP
+
+#
+# RDS replication configuration
+#
+# The script uses a database model which is replicate to create a db for the new environment.
+# Following is the configuration for the replicate which will become the env db master.
+
+# Arguments:
+
+# 1- type_bdd: database service (rds/documentDB)
+# 2- instance_type: The instance size. Could be reduced in case of some test environments
+# 3- option_group: The option group of the new rds instance.
+#                      This option group is not created by the script,
+#                      and must be already created on the account. No default value
+# 4- parameter_group: The parameter group of the new rds instance.
+#                         This option group is not created by the script,
+#                         and must be already created on the account. No default value
+# 5- engine_type: mariadb/mysql/oracle-ee/oracle-se2/oracle-se1/oracle-se/
+#                 postgres/sqlserver-ee/sqlserver-se/sqlserver-ex/sqlserver-web
+# 6- engine_version: The engine version of the new rds instance. No default value
+# 7- alloc_storage: Allocated storage of the new rds instance. No default value
+# 8- source_name: The source database for replication
+# 9- db_id: The temporary id given to the replica.
+# 10- connect_user + connect_password + connect_host_ext: Database credentials.
+#                                                        This change the database content after the replication.
+#                                                        No default values
+
+bdd:
+  -
+    type_bdd: rds
+    instance_type: db.t2.small
+    option_group: default:mariadb-10-1
+    parameter_group: default.mariadb10.1
+    engine_type: mariadb
+    engine_version: 10.1.34
+    alloc_storage: 20
+    name_source: bam-prod-db-01
+    db_id: db-01
+    connect_user: admin
+    connect_password: tQpZ0IS8vdtngtXt
+    new_user: khalid
+    new_user_pswd: abcdef
+  # -
+    # type_bdd: docdb
+    # instance_type: db.r5.large
+    # engine_type: docdb
+    # engine_version: 3.6.0
+    # name_source: prem-bam-cluster-01
+    # db_id: cluster-01
+    # instances:
+      # -
+        # instance_id: instance-01
+        # instance_class: db.r5.large
+        # engine: docdb
+        # AvailabilityZone: eu-west-1a
+
+
+
+# The script is executed once the new rds is accessible. Log in to the instance via the user / password indicated below. Optional value.
+#script_sql: bnc/mariadb.sql
+
+#
+# The ELB SSL offload certificate ARN. We can add up to 2 certificates for elb. If only one is needed, must fill the same value twice.
+#
+elb_certificates:
+  - elb_certificate_arn: arn:aws:acm:eu-west-1:524206184581:certificate/fb86abbf-b54a-4297-b4a8-c91eab99d703
+  - elb_certificate_arn: arn:aws:acm:eu-west-1:524206184581:certificate/fb86abbf-b54a-4297-b4a8-c91eab99d703
+
+# Default CIDR Block for VPC.
+DefaultCidrBlock: 10.16.0.0/16
+
+# Comma-delimited list of several CIDR blocks
+SubnetBlocksCIDR: 10.16.50.0/24, 10.16.60.0/24, 10.16.70.0/24, 10.16.80.0/24, 10.16.90.0/24, 10.16.100.0/24
+
+# The CIDR range to use to lock down security on host.
+SecurityGroupIngressAllCIDR: 0.0.0.0/0
+
+# Authorized IP Source for ASG access (22). IPs must be in CIDR format with a maximum of 10 ip
+
+# Authorized IP Source for DB access (3306). IPs must be in CIDR format with a maximum of 10 ip
+
+# Alarm threshold for monthly expenditures in euros
+AlarmThreshold: 1000
+
+# ElastiCache
+elasticache_enabled: True
+elasticache_engine: memcached
+elasticache_engine_version: 1.5.10
+elasticache_instance_type: cache.t2.medium
+elasticache_number_of_node: 1
+
+# Auto scaling groups
+# Do not put a condition to 'false", just don't write it
+asg_groups:
+  - ec2_keyname: bam_key_20190325
+    ec2_ami: ami-01ccc867
+    ec2_type: t3.medium
+    ec2_suffix_type: APP
+    ec2_script: nodejs.userdata
+    ec2_volume_size: 60
+    ec2_desired_capacity: 1
+    ec2_health_check_path: /index.html
+    ec2_elb_listener_instance_port: 80
+    ec2_elb_listener_load_balancer_port_1: 80
+    ec2_elb_listener_load_balancer_port_2: 443
+    ec2_elb_redirect_https: true
+    dns_records:
+      - "{env}.bam.run."
+
+#userpool parameters:
+# GenerateSecret: Boolean to specify whether you want to generate a secret for the user pool client being created
+# MfaConfiguration: Specifies multi-factor authentication (MFA) configuration details. Can be one of the following values
+# AutoVerifiedAttributes: The attributes to be auto-verified. Possible values: email, phone_number
+# AllowUnauthenticatedIdentities: Specifies whether the identity pool supports unauthenticated logins
+# UserPoolName: The name of the userpool created
+# UserPoolClientName: The name of the userpool client created
+# UserPoolSource: Set the UserPoolSource if needed
+# IdentityPoolName: Name of the amazon cognito identity group
+user_pools:
+  - UserPoolName: ka-userpool
+    #UserPoolSource:  eu-west-1_zxKGEpGyY
+    UserPoolClientName: app-client
+    Policies:
+      PasswordPolicy:
+        MinimumLength: 7
+        RequireUppercase: True
+        RequireLowercase: True
+        RequireNumbers: True
+        RequireSymbols: True
+        TemporaryPasswordValidityDays: 7
+    Schema:
+      - Name: email
+        AttributeDataType: String
+        DeveloperOnlyAttribute: False
+        Mutable: True
+        Required: False
+        StringAttributeConstraints:
+          MinLength: 0
+          MaxLength: 2048
+      - Name: costom:company
+        AttributeDataType: String
+        DeveloperOnlyAttribute: False
+        Mutable: True
+        Required: False
+        StringAttributeConstraints:
+          MinLength: 1
+          MaxLength: 30
+      - Name: company
+        AttributeDataType: String
+        DeveloperOnlyAttribute: False
+        Mutable: True
+        Required: False
+        StringAttributeConstraints:
+          MinLength: 1
+          MaxLength: 30
+      - Name: disclaimerAccepted
+        AttributeDataType: String
+        DeveloperOnlyAttribute: False
+        Mutable: True
+        Required: False
+        StringAttributeConstraints:
+          MinLength: 1
+          MaxLength: 30
+      - Name: gdprAccepted
+        AttributeDataType: String
+        DeveloperOnlyAttribute: False
+        Mutable: True
+        Required: False
+        StringAttributeConstraints:
+          MinLength: 1
+          MaxLength: 30
+
+    UsernameAttributes:
+      - phone_number
+    AutoVerifiedAttributes:
+      - email
+
+    IdentityPoolName: ka-identity-pool
+    AllowUnauthenticatedIdentities: 'true'
+    CognitoAuthenticatedPolicyStamemnt:
+      - Effect: Allow
+        Action:
+          - mobileanalytics:PutEvents
+          - 'cognito-sync:*'
+          - 'cognito-identity:*'
+        Resource: '*'
+      - Effect: Allow
+        Action:
+          - lambda:InvokeFunction
+        Resource: '*'
+    CognitoUnauthenticatedPolicyStatement:
+      - Effect: Allow
+        Action:
+          - mobileanalytics:PutEvents
+          - 'cognito-sync:*'
+        Resource: '*'
+
+    #MfaConfiguration:
+    #GenerateSecret:
+    #AllowUnauthenticatedIdentities:
+    #AutoVerifiedAttributes
+      
+dynamodb:
+    prefix_to_copy: prod_
+    tables:
+        # #name_target should be unique
+        # #if name_target does not exist the replica will be called {env}_{name_source} 
+      - name_source: table_source_1
+        name_target: new_table_source1
+      - name_source: Table_source_2
+      
+        

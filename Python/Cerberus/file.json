@@ -1,0 +1,4099 @@
+{
+    "OrderableDBInstanceOptions": [
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 6144,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 6144,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 6144,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 6144,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 32768,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 32768,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 6144,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 6144,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.10xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.10xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.10xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.m5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.16xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.8xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r4.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.12xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.24xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.4xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.r5.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 32768,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 32768,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": false,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": false,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": false,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 65536,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 65536,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t2.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.2xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.large",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.medium",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.micro",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.small",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": false,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "gp2",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 16384,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "io1",
+            "SupportsIops": true,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 100,
+            "MaxStorageSize": 16384,
+            "MinIopsPerDbInstance": 1000,
+            "MaxIopsPerDbInstance": 80000,
+            "MinIopsPerGib": 0.5,
+            "MaxIopsPerGib": 50.0,
+            "AvailableProcessorFeatures": []
+        },
+        {
+            "Engine": "mariadb",
+            "EngineVersion": "10.2.21",
+            "DBInstanceClass": "db.t3.xlarge",
+            "LicenseModel": "general-public-license",
+            "AvailabilityZones": [
+                {
+                    "Name": "eu-west-1a"
+                },
+                {
+                    "Name": "eu-west-1b"
+                },
+                {
+                    "Name": "eu-west-1c"
+                }
+            ],
+            "MultiAZCapable": true,
+            "ReadReplicaCapable": true,
+            "Vpc": true,
+            "SupportsStorageEncryption": true,
+            "StorageType": "standard",
+            "SupportsIops": false,
+            "SupportsEnhancedMonitoring": true,
+            "SupportsIAMDatabaseAuthentication": false,
+            "SupportsPerformanceInsights": true,
+            "MinStorageSize": 5,
+            "MaxStorageSize": 3072,
+            "AvailableProcessorFeatures": []
+        }
+    ]
+}
