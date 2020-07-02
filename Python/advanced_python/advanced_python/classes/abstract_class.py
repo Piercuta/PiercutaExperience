@@ -54,6 +54,7 @@ class Dog(AbstractAnimal):
     def species(self):
         return self.species
 
+print(type(Dog))
 rex = Dog()
 print(rex.is_alive())
 rex.make_noise()
