@@ -1,1 +1,1 @@
-write into newfile.txt
+write into mmm newfile.txt
