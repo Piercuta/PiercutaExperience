@@ -17,6 +17,7 @@
     {% for album in albums %}
         <div class="col-sm-4 text-center">
             <a href="{% url 'store:detail' album_id=album.id %}">
+              <!-- <img class="img-responsive" src="{{ album.picture }}" alt="{{ album.title }}"> -->
               <img class="img-responsive" src="data:image/jpeg;base64, {{ album.img }}"  alt="{{ album.title }}">
             </a>
             <h3><a href="{% url 'store:detail' album_id=album.id %}">{{ album.title }}</a></h3>
