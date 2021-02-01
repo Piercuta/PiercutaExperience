@@ -47,7 +47,7 @@ def detail(request, album_id):
         'album_title': album.title,
         'artists_name': artists_name,
         'album_id': album.id,
-        'img': base64.b64encode(album.img).decode('utf-8')
+        'img': base64.b64encode(album.img).decode('utf-8') if album.img else ""
     }
     if request.method == 'POST':
         form = ContactForm(request.POST, error_class=ParagraphErrorList)
